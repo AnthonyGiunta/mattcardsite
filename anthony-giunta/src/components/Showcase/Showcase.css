@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Sonsie+One&display=swap" rel="stylesheet');
+
+.caption{
+    width:50%;
+    height:50%;
+    font-size: 100%;
+    color: rgb(216, 216, 216); 
+    font-weight: bold;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: .05vh;
+    background-color: black;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    padding-top:.2vh;
+    padding-bottom:.2vh
+
+}

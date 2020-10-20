@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar-brand {
+  color: rgb(255, 251, 251) !important; 
+  display: flex !important;
+  padding-top: 1rem;
+  padding-bottom: .3125rem !important;
+  margin-right: 1rem !important;
+  font-size: 3em !important;
+  line-height: inherit;
+  white-space: nowrap;
+  letter-spacing: 5px;
+  align-items: center !important;
+  justify-content: center !important;
+  padding-bottom: 0;
+}
+.nav-link{
+  color:rgb(255, 251, 251) !important; 
+  letter-spacing: 3px;
+
+
+}
+.navbar-toggle{
+  width: 47px;
+  height: 34px;
+  
+}
+.grid-container{
+  height:10vH;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  
+}
+.grid-item{
+  padding: 30px;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: center;
+}
+.brand-name{
+  padding-left:25px;
+}
+.logo{
+  position: absolute;
+  transform:translate(-50vh,-50vh)''
+  
+}
+
+.backdrop{
+  background-color: rgb(29, 29, 29);
+}
+.titled{
+  text-align:center;
+  color: rgb(204, 204, 204) !important;
+  font-size:10em !important;
+  
+}
+.subtitle{
+  color: rgb(255, 251, 251) !important;
+}
+
